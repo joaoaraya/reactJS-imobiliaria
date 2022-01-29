@@ -1,38 +1,37 @@
-.hrTitle {
-    width: 169px;
-    height: 4px;
-    left: 0px;
-    top: 0px;
-    background: linear-gradient(90deg, #ffac12 0%, #000000 94.96%);
-    border-radius: 2px;
-}
-.title {
-    font-weight: 700;
-    font-size: 50px;
-}
-.filters {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: start;
-    overflow: hidden;
-    padding: 50px 0;
-    background-color: rgb(255, 255, 255);
-    border-radius: 25px;
-    box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.12);
+.findHouse {
+    .filters,
+    .houses {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-    select {
-        color: rgb(0, 0, 0);
-        border: none;
-        background-color: rgba(255, 255, 255, 0);
-        font-weight: 700;
-        font-size: 17px;
+    .houses {
+        gap: 30px;
+        justify-content: center;
+    }
 
-        &:focus {
-            outline: none;
-        }
-        &:hover {
-            color: rgb(70, 181, 255);
+    .filters {
+        justify-content: space-evenly;
+        align-items: start;
+        overflow: hidden;
+        padding: 50px 0;
+        background-color: rgb(255, 255, 255);
+        border-radius: 25px;
+        box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.12);
+
+        select {
+            color: rgb(0, 0, 0);
+            border: none;
+            background-color: rgba(255, 255, 255, 0);
+            font-weight: 700;
+            font-size: 17px;
+
+            &:focus {
+                outline: none;
+            }
+            &:hover {
+                color: rgb(70, 181, 255);
+            }
         }
     }
 }

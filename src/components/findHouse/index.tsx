@@ -49,7 +49,7 @@ export function FindHouse() {
     ]
 
     return (
-        <div>
+        <div className="findHouse">
             <div className="hrTitle" />
             <h1 className="title">Find your next place to live</h1>
 

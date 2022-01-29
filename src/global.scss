@@ -15,3 +15,18 @@ button {
     cursor: pointer;
     border: none;
 }
+
+.hrTitle {
+    width: 169px;
+    height: 4px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(90deg, #ffac12 0%, #000000 94.96%);
+    border-radius: 2px;
+    margin-bottom: 16px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 50px;
+}

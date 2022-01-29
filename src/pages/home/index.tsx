@@ -1,34 +1,32 @@
+import { BtnLink } from "../../components/btnLink";
 import { FindHouse } from "../../components/findHouse";
 import { Header } from "../../components/header";
-import { Link } from "../../components/link";
+import { Introduction } from "../../components/introduction";
+import { Describle } from "../../components/describle";
+import { CallOut } from "../../components/callOut";
+
+import homeImg from "../../assets/img/home-house-img.jpg";
+
+import './style.scss';
 
 export function Home() {
     return (
-        <div className="pageHome" style={{ backgroundColor: 'rgb(255, 204, 200)' }}>
+        <div className="pageHome" style={{}}>
+
+            <div className="homeBg" style={{ background: `linear-gradient(198.73deg, rgba(0, 0, 0, 0.01) 15.31%, rgba(0, 0, 0, 0.8) 67.37%), url(${homeImg}) no-repeat` }} />
             <Header />
-            <h1>Bealtiful home made for you</h1>
-            <p>In oculis quidem se esse admonere interesse enim maxime placeat, facere possimus, omnis. Et quidem faciunt, ut labore et accurate disserendum et harum quidem exercitus quid.</p>
-            <div>
-                <Link txt="See all listings" />
-            </div>
 
-            <>componente (left, right)</>
+            <main>
+                <Introduction />
+                <Describle imgPos='left' />
+                <FindHouse />
+                <Describle imgPos='right' />
+                <CallOut />
 
-            <FindHouse />
+                <>componente comentários</>
+            </main>
 
-            <>componente (left, right)</>
-
-            <div>
-                <div />
-                <h1>You’re in good hands</h1>
-                <p>Torquatos nostros? quos dolores eos, qui dolorem ipsum per se texit, ne ferae quidem se repellere, idque instituit docere sic: omne animal, simul atque integre iudicante itaque aiunt hanc quasi involuta aperiri, altera occulta quaedam et voluptatem accusantium doloremque.</p>
-                <Link txt="Learn more" />
-            </div>
-
-            <>componente comentários</>
-
-            <>Componente rodapé</>
-
+            <>Componente footer</>
         </div>
     )
 }
