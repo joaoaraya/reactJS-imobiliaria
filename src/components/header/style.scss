@@ -5,6 +5,10 @@ header {
     gap: 20px;
     width: 100%;
 
+    max-width: var(--max-width-page);
+    margin: auto;
+    margin-top: 32px;
+
     .logo {
         img {
             height: 32px;

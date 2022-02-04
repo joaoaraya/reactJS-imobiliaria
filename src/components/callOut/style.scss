@@ -1,23 +1,30 @@
 .callOut {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background: linear-gradient(225.52deg, #271a00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
-    padding: 150px 0;
 
-    .title {
-        text-align: center;
-        color: rgb(255, 255, 255);
-    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-    p {
-        text-align: center;
-        max-width: 450px;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 140%;
-        color: rgba(255, 255, 255, 0.6);
-        margin-top: 20px;
-        margin-bottom: 30px;
+        padding: 150px 0;
+
+        max-width: var(--max-width-page);
+        margin: auto;
+
+        .title {
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+
+        p {
+            text-align: center;
+            max-width: 450px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 140%;
+            color: rgba(255, 255, 255, 0.6);
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
     }
 }

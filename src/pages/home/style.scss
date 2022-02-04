@@ -1,3 +1,7 @@
+:root {
+    --max-width-page: 1080px;
+}
+
 .pageHome {
     .homeBg {
         z-index: -1;
@@ -9,5 +13,17 @@
 
         background-position: bottom !important;
         background-size: cover !important;
+    }
+
+    main {
+        .describle,
+        .findHouse,
+        .callOut,
+        .peopleComments {
+            margin-top: 150px;
+        }
+    }
+    footer {
+        margin-top: 150px;
     }
 }

@@ -1,53 +1,9 @@
 import { CardHouse } from "../cardHouse";
+import { casas } from '../../databases/houseDB'
 
 import './style.scss'
 
 export function FindHouse() {
-    const casas = [
-        {
-            id: 0,
-            name: 'Malto House',
-            bed: '1',
-            shower: '2',
-            size: '90'
-        },
-        {
-            id: 1,
-            name: 'Malto House',
-            bed: '1',
-            shower: '2',
-            size: '90'
-        },
-        {
-            id: 2,
-            name: 'Malto House',
-            bed: '1',
-            shower: '2',
-            size: '90'
-        },
-        {
-            id: 3,
-            name: 'Malto House',
-            bed: '1',
-            shower: '2',
-            size: '90'
-        },
-        {
-            id: 4,
-            name: 'Malto House',
-            bed: '1',
-            shower: '2',
-            size: '90'
-        },
-        {
-            id: 5,
-            name: 'Malto House',
-            bed: '1',
-            shower: '2',
-            size: '90'
-        }
-    ]
-
     return (
         <div className="findHouse">
             <div className="hrTitle" />
